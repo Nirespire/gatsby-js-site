@@ -15,7 +15,7 @@ body,
 
 .background {
   position: absolute;
-  background: url("../../static/logo.png");
+  background: url("../../static/logo.webp");
   background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;

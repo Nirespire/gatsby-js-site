@@ -19,7 +19,7 @@ class App extends Component {
           <div class="container pad-top">
             <div class="row image-header">
               <div class="column center">
-                <img src="headshot.png" class="headshot" alt="That's me!" />
+                <img src="headshot.webp" class="headshot" alt="That's me!" />
                 <h1>Sanjay Nair</h1>
                 <h4>Software Engineer</h4>
               </div>
