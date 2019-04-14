@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Sanjay Nair - Software Engineer`,
+    title: `Software Engineer`,
     description: `I am a software engineer based out of Atlanta, Georgia. I enjoy working with full stack teams on value driven projects. In my spare time I like to work on personal projects like building software, speaking about tech, and writing.`,
     author: `@nirespire`,
   },
@@ -15,5 +15,11 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-55692810-2",
+      },
+    },
   ]
 }

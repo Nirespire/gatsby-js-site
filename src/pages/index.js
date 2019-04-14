@@ -12,21 +12,21 @@ class App extends Component {
   render = () => {
     return (
       <section>
-        <SEO/>
+        <SEO title="Sanjay Nair"/>
         <div>
-          <div class="background"></div>
+          <div className="background"></div>
 
-          <div class="container pad-top">
-            <div class="row image-header">
-              <div class="column center">
-                <img src="headshot.webp" class="headshot" alt="That's me!" />
+          <div className="container pad-top">
+            <div className="row image-header">
+              <div className="column center">
+                <img src="headshot.webp" className="headshot" alt="That's me!" />
                 <h1>Sanjay Nair</h1>
                 <h4>Software Engineer</h4>
               </div>
             </div>
 
-            <div class="row">
-              <div class="column column-50 column-offset-25 center">
+            <div className="row">
+              <div className="column column-50 column-offset-25 center">
                 <p>
                   I am a software engineer based out of Atlanta, Georgia.
                   I enjoy working with full stack teams on value driven projects.
@@ -35,15 +35,15 @@ class App extends Component {
               </div>
             </div>
 
-            <div class="row">
-              <div class="column center">
-                <div><h3><i class="fab fa-medium fa-fw icon-link"></i><a href="https://medium.com/@nirespire" target="_blank" rel="noopener noreferrer">Articles</a></h3></div>
-                <div><h3><i class="fab fa-youtube fa-fw icon-link"></i><a href="https://www.youtube.com/playlist?list=PLEes72Fb4Ddh27N8XIbD7RQFaKwxPWCE3" target="_blank" rel="noopener noreferrer">Talks</a></h3></div>
-                <div><h3><i class="fab fa-youtube fa-fw icon-link"></i><a href="https://www.youtube.com/playlist?list=PLEes72Fb4DdiRQ1Jxs9AG0ynJUAWJHp5S" target="_blank" rel="noopener noreferrer">Live Coding</a></h3></div>
-                <div><h3><i class="fab fa-twitter fa-fw icon-link"></i><a href="https://twitter.com/Nirespire" target="_blank" rel="noopener noreferrer">Twitter</a></h3></div>
-                <div><h3><i class="fab fa-linkedin fa-fw icon-link"></i><a href="https://www.linkedin.com/in/sanjaynair8/" target="_blank" rel="noopener noreferrer">LinkedIn</a></h3></div>
-                <div><h3><i class="fab fa-github-square fa-fw icon-link"></i><a href="https://github.com/Nirespire" target="_blank" rel="noopener noreferrer">Github</a></h3></div>
-                <div><h3><i class="fas fa-envelope fa-fw icon-link"></i><a href="mailto:sanjayhnair@gmail.com" target="_blank" rel="noopener noreferrer">Contact</a></h3></div>
+            <div className="row">
+              <div className="column center">
+                <div><h3><i className="fab fa-medium fa-fw icon-link"></i><a href="https://medium.com/@nirespire" target="_blank" rel="noopener noreferrer">Articles</a></h3></div>
+                <div><h3><i className="fab fa-youtube fa-fw icon-link"></i><a href="https://www.youtube.com/playlist?list=PLEes72Fb4Ddh27N8XIbD7RQFaKwxPWCE3" target="_blank" rel="noopener noreferrer">Talks</a></h3></div>
+                <div><h3><i className="fab fa-youtube fa-fw icon-link"></i><a href="https://www.youtube.com/playlist?list=PLEes72Fb4DdiRQ1Jxs9AG0ynJUAWJHp5S" target="_blank" rel="noopener noreferrer">Live Coding</a></h3></div>
+                <div><h3><i className="fab fa-twitter fa-fw icon-link"></i><a href="https://twitter.com/Nirespire" target="_blank" rel="noopener noreferrer">Twitter</a></h3></div>
+                <div><h3><i className="fab fa-linkedin fa-fw icon-link"></i><a href="https://www.linkedin.com/in/sanjaynair8/" target="_blank" rel="noopener noreferrer">LinkedIn</a></h3></div>
+                <div><h3><i className="fab fa-github-square fa-fw icon-link"></i><a href="https://github.com/Nirespire" target="_blank" rel="noopener noreferrer">Github</a></h3></div>
+                <div><h3><i className="fas fa-envelope fa-fw icon-link"></i><a href="mailto:sanjayhnair@gmail.com" target="_blank" rel="noopener noreferrer">Contact</a></h3></div>
               </div>
             </div>
           </div>
