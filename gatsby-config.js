@@ -21,5 +21,12 @@ module.exports = {
         trackingId: "UA-55692810-2",
       },
     },
+    {
+      resolve: `gatsby-source-medium`,
+      options: {
+        username: `@Nirespire`,
+        limit: 10,
+      },
+    },
   ]
 }
