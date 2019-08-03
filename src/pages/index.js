@@ -28,9 +28,9 @@ class App extends Component {
             <div className="row">
               <div className="column column-50 column-offset-25 center">
                 <p>
-                  I am a software engineer based out of Atlanta, Georgia.
+                  I am a software engineer based in Atlanta, Georgia.
                   I enjoy working with full stack teams on value driven projects.
-                  In my spare time I like to work on personal projects like building software, speaking about tech, and writing.
+                  In my spare time I like building software, speaking about tech, and writing.
               </p>
               </div>
             </div>
