@@ -3,6 +3,7 @@ module.exports = {
     title: `Software Engineer`,
     description: `I am a software engineer based out of Atlanta, Georgia. I enjoy working with full stack teams on value driven projects. In my spare time I like to work on personal projects like building software, speaking about tech, and writing.`,
     author: `@nirespire`,
+    siteUrl: 'https://sanjaynair.me'
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -21,5 +22,11 @@ module.exports = {
         trackingId: "UA-55692810-2",
       },
     },
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        policy: [{ userAgent: '*', allow: '/' }]
+      } 
+    }
   ]
 }
