@@ -27,6 +27,7 @@ module.exports = {
       options: {
         policy: [{ userAgent: '*', allow: '/' }]
       } 
-    }
+    },
+    `gatsby-plugin-sitemap`
   ]
 }
