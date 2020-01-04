@@ -15,7 +15,7 @@ body,
 
 .background {
   position: fixed;
-  background: url("../../static/logo.webp");
+  background: url("../../static/logo.svg");
   background-size: 50%;
   background-position: center;
   background-repeat: no-repeat;
