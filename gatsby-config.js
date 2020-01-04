@@ -22,13 +22,13 @@ module.exports = {
         trackingId: "UA-55692810-2",
       },
     },
-    // {
-    //   resolve: `gatsby-source-medium`,
-    //   options: {
-    //     username: `@Nirespire`,
-    //     limit: 10,
-    //   },
-    // },
+    {
+      resolve: `gatsby-source-rss-feed`,
+      options: {
+        url: `https://medium.com/feed/@Nirespire`,
+        name: `Medium`,
+      }
+    },
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
