@@ -69,6 +69,7 @@ export default ({ data }) => {
                 <div><h3><i className="fab fa-twitter fa-fw icon-link"></i><a href="https://twitter.com/Nirespire" target="_blank" rel="noopener noreferrer">Twitter</a></h3></div>
                 <div><h3><i className="fab fa-linkedin fa-fw icon-link"></i><a href="https://www.linkedin.com/in/sanjaynair8/" target="_blank" rel="noopener noreferrer">LinkedIn</a></h3></div>
                 <div><h3><i className="fab fa-github-square fa-fw icon-link"></i><a href="https://github.com/Nirespire" target="_blank" rel="noopener noreferrer">Github</a></h3></div>
+                <div><h3><i className="fas fa-book fa-fw icon-link"></i><a href="https://www.mendeley.com/authors/57192428597/" target="_blank" rel="noopener noreferrer">Publications</a></h3></div>
                 <div><h3><i className="fas fa-envelope fa-fw icon-link"></i><a href="mailto:contact@sanjaynair.dev" target="_blank" rel="noopener noreferrer">Contact</a></h3></div>
               </div>
             </div>
