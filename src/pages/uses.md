@@ -3,6 +3,7 @@
 - F.lux
 - Discord
 - Postman
+- OBS
 - Windows
     - WSL2 (Ubuntu)
     - Greenshot
@@ -21,10 +22,17 @@
     - ESLint
 - Docker
 
+# Misc Tools
+- Google Keep
+- Notion
+
 # Gaming
-- BattleNet: Heroes of the Storm
-- Origin: Apex Legends
-- Steam: Halo MCC
+- PC
+    - BattleNet: Heroes of the Storm
+    - Origin: Apex Legends
+    - Steam: Halo MCC
+- Nintendo Switch
+- Playstation 4 Pro
 
 
 # PC
@@ -40,4 +48,14 @@
 - Webcam: [Logitech 720p Webcam](https://www.amazon.com/Logitech-Desktop-Widescreen-Calling-Recording/dp/B004FHO5Y6)
 - Speakers: [Logitech Z313 Speaker System](https://www.amazon.com/gp/product/B002HWRZ2K/)
 - Headphones: [Audio-Technica ATH-AD500X](https://www.amazon.com/Audio-Technica-ATH-AD500X-Audiophile-Open-Air-Headphones/dp/B009S333U4)
+- Mic: [AmazonBasics Desktop Mini Condenser Microphone](https://www.amazon.com/AmazonBasics-Desktop-Mini-Condenser-Microphone/dp/B076ZSRVFQ/)
 
+# Other Hardware
+- Macbook pro 13" (2013)
+- Bose QC35 Headphones
+- Samsung Galaxy S8
+
+
+# Podcasts
+- I listen on [Podcast Addict](https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict&hl=en_US) for Android
+- [My Podcast Subscriptions](https://github.com/Nirespire/rss-feeds/blob/master/podcasts.xml)
