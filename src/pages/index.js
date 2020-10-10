@@ -14,9 +14,7 @@ export default ({ data }) => {
   const [expanded, setExpanded] = useState(false)
 
   const postList = data.allFeedMedium.edges.map((post, i) => {
-    if ( i < 5) {
-      return <h4 key={i}><a href={post.node.link} target="_blank" rel="noopener noreferrer"><p>{post.node.title}</p></a></h4>
-    }
+    return (i < 5) ? <h4 key={i}><a href={post.node.link} target="_blank" rel="noopener noreferrer"><p>{post.node.title}</p></a></h4> : null;
   })
 
   const postContainer = <div>{postList}</div>
@@ -26,9 +24,9 @@ export default ({ data }) => {
   }
   
   const dropdownArrow =  expanded ?
-      <span onClick={toggleList}><i className="fas fa-caret-up fa-fw icon-medium-right"></i></span>
+      <span onClick={toggleList} onKeyPress={toggleList} role="button" tabIndex="0" aria-label="Close Article List"><i className="fas fa-caret-up fa-fw icon-medium-right"></i></span>
     :
-      <span onClick={toggleList}><i className="fas fa-caret-down fa-fw icon-medium-right"></i></span>   
+      <span onClick={toggleList} onKeyPress={toggleList} role="button" tabIndex="-1" aria-label="Open Article List"><i className="fas fa-caret-down fa-fw icon-medium-right"></i></span>   
 
   return (
     <section>
