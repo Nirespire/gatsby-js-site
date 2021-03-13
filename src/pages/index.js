@@ -9,7 +9,7 @@ import "../../static/fontawesome-free-5.8.1-web/css/all.min.css"
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 
-export default ({ data }) => {
+const Main = ({ data }) => {
 
   const [expanded, setExpanded] = useState(false)
 
@@ -90,3 +90,5 @@ export const query = graphql`
     }
   }
 `
+
+export default Main
